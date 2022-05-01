@@ -1,6 +1,6 @@
 # setup local environment to test the package
 ```
-go mod edit -replace omatech.com/urlchecker=../go-urlchecker
+go mod edit -replace omatech.com/urlchecker=../urlchecker
 go mod tidy
 ```
 
