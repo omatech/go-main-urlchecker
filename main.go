@@ -6,8 +6,7 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"omatech.com/urlchecker"
+	"github.com/omatech/urlchecker"
 )
 
 func main() {

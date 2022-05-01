@@ -4,14 +4,17 @@ go mod edit -replace omatech.com/urlchecker=../go-urlchecker
 go mod tidy
 ```
 
-# download dependencies
+# start up and download dependencies
 ```
+go mod init main
+go clean -modcache
 go get github.com/aws/aws-lambda-go/lambda
 go get github.com/aws/aws-sdk-go/aws
 go get github.com/aws/aws-sdk-go/aws/session
 go get github.com/aws/aws-sdk-go/service/s3
 go get github.com/aws/aws-lambda-go/events
 go get -u github.com/aws/aws-lambda-go/cmd/build-lambda-zip
+go get github.com/omatech/urlchecker
 ```
 
 # run with

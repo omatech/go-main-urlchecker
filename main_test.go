@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"omatech.com/urlchecker"
+	"github.com/omatech/urlchecker"
 )
 
 func TestMain(t *testing.T) {
